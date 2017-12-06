@@ -1,0 +1,32 @@
+@media (min-width: 535px) and (max-width: 824px) {
+  [class*="col-"]{
+    width: 100%;
+  }
+  .first.sectiom{
+   content: 
+  }
+  .img{
+    border: 6px solid white;
+    content: url(../images/plaza_de_armas_medias.jpg)
+  }
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+ .showOnBig {
+   visibility: hidden;
+ }
+
+ .showOnSmall {
+   visibility: visible;
+ }
+}
+
+@media (min-width: 300px) and (min-width: 601px) {
+  .showOnBig {
+    visibility: visible;
+  }
+ 
+  .showOnSmall {
+    visibility: hidden;
+  }
+ }
